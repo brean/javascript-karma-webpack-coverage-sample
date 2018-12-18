@@ -1,5 +1,5 @@
 # JavaScript + Karma + WebPack + Istanbul + Travis + Coveralls + inch-ci
-Basic example of ECMAScript 6 using Webpack, Karma and Istanbul (automatic unit testing with coverage report), also travis and coveralls integration to create coverage badges and view it online as well as online-documentation provided by inch-ci.
+Basic example of ECMAScript 6 using Webpack, Karma and Istanbul (automatic unit testing with coverage report), also travis and coveralls integration to create coverage badges and view it online as well as online suggestions for documentation improvements provided by inch-ci.
 
 (if the badge shows 25% everything is fine, we have some code that is uncovered on purpose to test the system).
 
