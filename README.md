@@ -14,9 +14,9 @@ I did not find an example project that was using webpack and provided test cover
 
 ## Notes on running npm locally
  - `npm run build` - builds your application in `dist/bundle.js` (you can check if the code works manually by opening [index.html](index.html))
+ - `npm run watch` - continuous build when one of the JavaScript-files changes, makes direct testing while development easier.
  - `npm run docs` - creates the JSDoc-API documentation in the `docs/`-folder
  - `npm run test` - starts karma and runs the unit-tests from the `test/`-folder. Creates a HTML code-coverage report in the `coverage/`-folder
-
 
 ## Acknowledgments
 Based on the [typescript-karma-webpack-coverage-sample](https://github.com/mcliment/typescript-karma-webpack-coverage-sample)

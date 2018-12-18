@@ -1,4 +1,7 @@
 const path = require("path");
+const webpack = require('webpack');
+const JsDocPlugin = require('jsdoc-webpack-plugin-v2');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
   mode: 'development',
@@ -25,5 +28,16 @@ module.exports = {
         }
       }
     ],
-  }
+  },
+  optimization: {
+    minimize: true,
+    minimizer: [new UglifyJsPlugin({
+      include: /\.min\.js$/
+    })]
+  },
+  plugins: [
+    new JsDocPlugin({
+      conf: path.join(__dirname, 'jsdoc.conf.json'),
+    })
+  ]
 };
