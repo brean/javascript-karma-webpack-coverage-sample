@@ -1,0 +1,29 @@
+{
+  "name": "jscoverage",
+  "version": "1.0.0",
+  "description": "Testing Karma+JavaScript with full coverage",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "karma start karma.conf.js --single-run"
+  },
+  "author": "Andreas Bresser, Marc Climent",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "istanbul-instrumenter-loader": "^3.0.1",
+    "karma": "^3.1.4",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage-istanbul-reporter": "^2.0.4",
+    "karma-mocha": "^1.3.0",
+    "karma-sinon-chai": "^2.0.2",
+    "karma-spec-reporter": "0.0.32",
+    "karma-webpack": "^3.0.5",
+    "mocha": "^5.2.0",
+    "puppeteer": "^1.11.0",
+    "sinon": "^7.2.2",
+    "sinon-chai": "^3.3.0",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
