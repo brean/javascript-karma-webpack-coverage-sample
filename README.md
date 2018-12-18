@@ -1,4 +1,4 @@
-# JavaScript + Karma + WebPack + Istanbul + Travis + Coveralls + inch-ci
+# JavaScript + Karma + WebPack + Istanbul + Web Services for Developers (Travis + Coveralls + inch-ci + CodeClimate)
 Basic example of ECMAScript 6 using Webpack, Karma and Istanbul (automatic unit testing with coverage report), also travis and coveralls integration to create coverage badges and view it online as well as online-documentation provided by inch-ci.
 
 (if the badge shows 25% everything is fine, we have some code that is uncovered on purpose to test the system).
@@ -6,6 +6,7 @@ Basic example of ECMAScript 6 using Webpack, Karma and Istanbul (automatic unit 
 [![Build Status](https://travis-ci.org/brean/javascript-karma-webpack-coverage-sample.svg?branch=master)](https://travis-ci.org/brean/javascript-karma-webpack-coverage-sample)
 [![Coverage Status](https://coveralls.io/repos/github/brean/javascript-karma-webpack-coverage-sample/badge.svg?branch=master)](https://coveralls.io/github/brean/javascript-karma-webpack-coverage-sample?branch=master)
 [![Documentation Status](https://inch-ci.org/github/brean/javascript-karma-webpack-coverage-sample.svg?branch=master)](https://inch-ci.org/github/brean/javascript-karma-webpack-coverage-sample?branch=master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/bd64a7f55066b90b9f67/maintainability)](https://codeclimate.com/github/brean/javascript-karma-webpack-coverage-sample/maintainability)
 
 
 ## Motivation
