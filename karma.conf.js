@@ -20,7 +20,7 @@ module.exports = (config) => {
       noInfo: true
     },
     coverageIstanbulReporter: {
-      reports: [ 'html', 'text-summary' ],
+      reports: [ 'html', 'lcovonly', 'text-summary' ],
       ignore: ['node_modules/**/*.js'],
       dir: path.join(__dirname, 'coverage'),
       fixWebpackSourcePaths: true,

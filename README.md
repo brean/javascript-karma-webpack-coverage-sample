@@ -1,5 +1,5 @@
-# JavaScript + karma + WebPack + Istanbul
-Basic example of ECMAScript 6 using Webpack, Karma and Istanbul (automatic unit testing with coverage report)
+# JavaScript + karma + WebPack + Istanbul + coveralls
+Basic example of ECMAScript 6 using Webpack, Karma and Istanbul (automatic unit testing with coverage report), also travis and coveralls integration to create coverage badge.
 
 ## Motivation
 I did not find an example project that was using webpack and provided test coverage for JavaScript.
