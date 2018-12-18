@@ -1,0 +1,42 @@
+{
+  "tags": {
+    "allowUnknownTags" : true
+  },
+  "source": {
+    "include": "src/",
+    "includePattern": ".+\\.js(doc)?$",
+    "excludePattern": "(^|\\/|\\\\)_|index.js"
+  },
+  "templates": {
+    "cleverLinks"   : false,
+    "monospaceLinks": false,
+    "default"       : {
+      "outputSourceFiles" : true
+    },
+    "applicationName": "jscoverage",
+    "footer"        : "",
+    "copyright"     : "",
+    "disqus": "",
+    "googleAnalytics": "",
+    "openGraph": {
+      "title": "",
+      "type": "website",
+      "image": "",
+      "site_name": "",
+      "url": ""
+    },
+    "meta": {
+      "title": "JavaScript + Karma + WebPack + Coverage + JSDoc",
+      "description": "",
+      "keyword": "karma, webpack, istanbul, jsdoc"
+    },
+    "linenums"      : true
+  },
+  "opts": {
+    "encoding"      : "utf8",
+    "recurse"       : true,
+    "private"       : false,
+    "lenient"       : true,
+    "destination"   : "docs/js_api/"
+  }
+}
