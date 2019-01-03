@@ -1,11 +1,11 @@
 import Hello from './modules/Hello';
-import Uncovered from './modules/Uncovered';
+import './modules/Uncovered';
 
-const container = document.getElementById("app");
+const container = document.getElementById('app');
 
 if (container) {
   // we assume the code is called from index.html and there is a container
   // present. The testing environment does not provide an "app"-DOM element.
-  const hello = new Hello(container);
+  let hello = new Hello(container);
   hello.fill();
 }

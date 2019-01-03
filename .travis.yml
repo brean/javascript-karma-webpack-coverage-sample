@@ -15,6 +15,7 @@ branches:
 
 install:
   - npm install
+  - npm install --save-dev
 
 cache:
   directories:

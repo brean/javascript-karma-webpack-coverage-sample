@@ -15,7 +15,7 @@ class Hello {
    * Note that this will delete the previous content of the element
    */
   fill() {
-    this.elem.innerHTML = "<h1>Hello world!</h1>";
+    this.elem.innerHTML = '<h1>Hello world!</h1>';
   }
 }
 

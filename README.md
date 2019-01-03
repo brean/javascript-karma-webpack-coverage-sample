@@ -1,5 +1,5 @@
-# JavaScript + Karma + WebPack + Istanbul + Web Services for Developers (Travis + Coveralls + inch-ci + CodeClimate)
-Basic example of ECMAScript 6 using Webpack, Karma and Istanbul (automatic unit testing with coverage report), also travis and coveralls integration to create coverage badges and view it online as well as online suggestions for documentation improvements provided by inch-ci.
+# JavaScript + Karma + WebPack + Istanbul + ESLint + Web Services for Developers (Travis + Coveralls + inch-ci + CodeClimate)
+Basic example of ECMAScript 6 using Webpack, Karma and Istanbul (automatic unit testing with coverage report), [linting](https://en.wikipedia.org/wiki/Lint_(software)) using ESLint, also travis and coveralls integration to create coverage badges and view it online as well as online suggestions for documentation improvements provided by inch-ci.
 
 (if the badge shows 25% everything is fine, we have some code that is uncovered on purpose to test the system).
 

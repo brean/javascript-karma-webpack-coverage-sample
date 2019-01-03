@@ -12,8 +12,15 @@
   "author": "Andreas Bresser, Marc Climent",
   "license": "MIT",
   "dependencies": {
+    "eslint-cli": "^1.1.1",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "devDependencies": {
     "chai": "^4.2.0",
     "coveralls": "^3.0.2",
+    "eslint": "^5.11.1",
+    "eslint-loader": "^2.1.1",
     "istanbul-instrumenter-loader": "^3.0.1",
     "jsdoc": "^3.5.5",
     "jsdoc-webpack-plugin-v2": "^2.0.2",
@@ -28,8 +35,6 @@
     "puppeteer": "^1.11.0",
     "sinon": "^7.2.2",
     "sinon-chai": "^3.3.0",
-    "uglifyjs-webpack-plugin": "^2.0.1",
-    "webpack": "^4.27.1",
-    "webpack-cli": "^3.1.2"
+    "uglifyjs-webpack-plugin": "^2.0.1"
   }
 }

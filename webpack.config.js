@@ -26,6 +26,13 @@ module.exports = {
           loader: 'istanbul-instrumenter-loader',
           options: { esModules: true }
         }
+      },
+      {
+        test: /.js/,
+        enforce: 'pre',
+        exclude: /node_modules/,
+        loader: 'eslint-loader',
+        
       }
     ],
   },

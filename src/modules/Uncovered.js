@@ -6,7 +6,7 @@ class Uncovered {
    * @constructor
    * @param {string} message - message string that will be stored
    */
-  constructor(message = "") {
+  constructor(message = '') {
     this.message = message;
   }
 
