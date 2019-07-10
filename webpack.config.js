@@ -1,6 +1,6 @@
 const path = require("path");
 const webpack = require('webpack');
-const JsDocPlugin = require('jsdoc-webpack-plugin-v2');
+const JsDocPlugin = require('jsdoc-webpack-plugin-v4');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
