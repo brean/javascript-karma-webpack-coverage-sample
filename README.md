@@ -1,3 +1,11 @@
+
+**TYPESCRIPT+REACT**
+
+For new projects now I use Typescript+React. If you like to use a similar starter setup like this take a look at my [Typescript-React Starter](https://github.com/brean/typescript-react-starter) project. It comes with similar features like this one:
+- eslint for code linting
+- typedoc for documentation
+- Integration for travis (Build), coveralls (Coverage), inch-ci (Documentation) and codeclimate (Maintainability)
+
 # JavaScript + Karma + WebPack + Istanbul + ESLint + Web Services for Developers (Travis + Coveralls + inch-ci + CodeClimate)
 Basic example of ECMAScript 6 using Webpack, Karma and Istanbul (automatic unit testing with coverage report), [linting](https://en.wikipedia.org/wiki/Lint_(software)) using ESLint, also travis and coveralls integration to create coverage badges and view it online as well as online suggestions for documentation improvements provided by inch-ci.
 
